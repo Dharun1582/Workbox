@@ -1,0 +1,130 @@
+
+#currentactive{
+    background-color: rgb(1, 101, 252);
+    
+  }
+  
+  #currentactive a{
+    color: white;
+  }
+  
+  body{
+    background-color: rgba(172, 172, 179, 0.95);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  ul.titlebar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 8px solid rgb(1, 101, 252);
+  }
+  
+  
+  
+  li a,span{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    border-bottom:2px solid yellow ;
+  }
+  
+  li span:hover {
+    background-color: #111;
+    border-bottom:2px solid yellow ;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 1.5cm;
+    right: 0.2cm;
+    background-color: #333;
+    
+  }
+  
+  
+  
+  .dropdown-content a:hover {
+    background-color: #111;
+    border-bottom:2px solid yellow ;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  .active{
+    background-color: rgb(1, 101, 252);
+  }
+
+/* --------------------------------------------- */
+
+.card {
+    
+    box-shadow: 0 6px 10px 0 rgba(0,0,1,1);
+    transition: 0.8s;
+    width: fit-content;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(1, 101, 252);
+    cursor: pointer;
+  }
+
+  /* ---------------------------- */
+
+  
+  table,td,th{
+    margin: auto;
+}
+
+td{
+    font-size: xx-large;
+}
+ td.left{
+     text-align: right;
+     padding:14px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ td.right{
+     text-align: left;
+     padding:14px;
+ }
+
+ th{
+     font-size: xx-large;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-align: center;
+ }
+ td input{
+     padding: 8px;
+     font-size: x-large;
+ }
+
+ .btn{
+    background-color: rgb(1, 101, 252);
+    border-radius: 20px;
+    color: white;
+    padding: 8px 150px;
+ }
+
+ .btn:hover{
+     cursor: pointer;
+     background-color: rgb(0, 82, 204);
+ }
